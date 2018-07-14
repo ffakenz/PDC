@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<grupos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:noNamespaceSchemaLocation="./grupos.xsd">
+   <grupo codigo="T">Todos</grupo>
+   <grupo codigo="ALU">Certificados de alumnos</grupo>
+   <grupo codigo="DOC">Certificados de docentes</grupo>
+   <grupo codigo="EVT">Certificados de eventos</grupo>
+   <grupo codigo="PER">Certificados de personal</grupo>
+</grupos>

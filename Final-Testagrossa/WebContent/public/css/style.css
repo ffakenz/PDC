@@ -1,0 +1,56 @@
+@CHARSET "ISO-8859-1";
+
+* {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 10pt;
+    color: #223300;
+}
+
+h2 {
+	color: #111a00;
+}
+
+body {
+	background-color: #f7ffe6;
+}
+
+table thead, th {
+    background-color: #446600;
+    color: #ffffff;
+}
+
+table tbody {
+    background-color: #AFEEEE;
+}
+
+td {
+	background-color: #e6ffb3;
+}
+
+a:link {text-decoration:none; color: #558000;}   
+a:visited {text-decoration:none; color:#558000; } 
+a:hover {text-decoration:none; color:#558000;}   
+a:active {text-decoration:none; color:#558000;}
+
+#error {
+	width: 500px;
+  	height: 200px;
+ 	position: absolute;	
+	top: 50%;
+	left: 50%;
+	margin-top: -130px;
+	margin-left: -280px;
+	border: 1px solid #000;
+	padding: 30px;
+	background-color: #FF9966;
+}
+
+#result, #message {
+	display: none;	
+}
+
+#message {
+	border: 1px solid #f00;
+	color: #f00;
+	padding: 10px;
+}
